@@ -1,12 +1,12 @@
-import adapter from '@sveltejs/adapter-auto'
-import preprocess from 'svelte-preprocess'
-import UnoCss from 'unocss/vite'
-import { extractorSvelte } from '@unocss/core'
-import presetIcons from '@unocss/preset-icons'
-import presetAttributify from '@unocss/preset-attributify'
-import presetUno from '@unocss/preset-uno'
-import presetWebFonts from '@unocss/preset-web-fonts'
-import { isoImport } from 'vite-plugin-iso-import'
+import adapter from '@sveltejs/adapter-auto';
+import preprocess from 'svelte-preprocess';
+import UnoCss from 'unocss/vite';
+import { extractorSvelte } from '@unocss/core';
+import presetIcons from '@unocss/preset-icons';
+import presetAttributify from '@unocss/preset-attributify';
+import presetUno from '@unocss/preset-uno';
+import presetWebFonts from '@unocss/preset-web-fonts';
+import { isoImport } from 'vite-plugin-iso-import';
 
 const config = {
   preprocess: preprocess(),
@@ -15,6 +15,9 @@ const config = {
     adapter: adapter(),
     target: '#svelte',
     vite: {
+      optimizeDeps: {
+        include: ['highlight.js', 'highlight.js/lib/core'],
+      },
       plugins: [
         isoImport(),
         UnoCss({
@@ -25,7 +28,7 @@ const config = {
             presetAttributify(),
             presetIcons({
               extraProperties: {
-                'display': 'inline-block',
+                display: 'inline-block',
                 'vertical-align': 'middle',
               },
             }),
@@ -35,12 +38,12 @@ const config = {
                 // these will extend the default theme
                 sans: 'Inter',
               },
-            })
+            }),
           ],
         }),
       ],
     },
   },
-}
+};
 
-export default config
+export default config;

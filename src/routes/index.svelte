@@ -1,16 +1,26 @@
 <script>
+  import Highlight from 'svelte-highlight';
+  import js from 'svelte-highlight/languages/javascript';
+  import theme from 'svelte-highlight/styles/lioshi';
+
   import Slide from '$lib/Slide.svelte';
   import Deck from '$lib/Deck.svelte';
   import Step from '$lib/ui/Step.svelte';
 
-  import hljs from 'highlight.js/lib/core';
-  import javascript from 'highlight.js/lib/languages/javascript';
-  import 'highlight.js/styles/github.css';
-  hljs.registerLanguage('javascript', javascript);
+  const code1 = `const [loading, setLoading] = useState(false);`;
+  const code2 = `useEffect(() => {
+  setOther(nb * 10);
+}, [nb])`;
 </script>
 
+<svelte:head>
+  <title>Svelte, ou pourquoi je ne veux plus faire de React</title>
+  <meta name="description" content="Présentation sur le framework Svelte" />
+  {@html theme}
+</svelte:head>
+
 <Deck>
-  <Slide>
+  <!-- <Slide>
     <div class="flex flex-col min-h-screen justify-center">
       <h1
         class="font-sans font-black text-neutral-900 text-center text-6xl tracking-tighter max-w-5/6 mx-auto my-2 leading-none"
@@ -145,7 +155,7 @@
         allowFullScreen
       />
     </div>
-  </Slide>
+  </Slide> -->
 
   <Slide>
     <div class="flex justify-around min-h-screen items-center mx-auto">
@@ -156,16 +166,8 @@
       </h3>
       <div class="flex-1">
         <p>Classes, fonctions, hooks ?</p>
-        <pre>
-          <code class="language-js">
-            const [loading, setLoading] = useState(false);
-          </code>
-        </pre>
-        <pre>
-          <code class="language-js">
-          useEffect
-        </code>
-      </pre>
+        <Highlight language={js} code={code1} />
+        <Highlight language={js} code={code2} />
       </div>
     </div>
   </Slide>
