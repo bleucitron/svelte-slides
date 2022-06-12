@@ -1,9 +1,4 @@
   @font-face {
     font-family: 'PokemonGb';
-    src: url('static/fonts/PokemonGb-RAeo.ttf') format('ttf');
-  }
-
-  @font-face {
-    font-family: 'Josefin';
-    src: url('static/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf') format('ttf');
+    src: url('/fonts/PokemonGb-RAeo.ttf');
   }
