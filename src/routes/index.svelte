@@ -579,8 +579,8 @@
 
         <div class="link text-xl">
           Slides:
-          <a href="https://svelte-demo-ourson.vercel.app/" target="blank">
-            TODO
+          <a href="https://svelte-slides-ourson.vercel.app/" target="blank">
+            https://svelte-slides-ourson.vercel.app/
           </a>
         </div>
 
