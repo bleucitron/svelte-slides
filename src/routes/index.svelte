@@ -666,7 +666,7 @@
       <div class="relative flex-1 flex gap-5 justify-center items-center ">
         <img
           class="w-200"
-          src="https://media.giphy.com/media/ZEgBAGqsQ0GZyFTkm5/giphy.gif"
+          src="https://media.giphy.com/media/ILV8xetoPJO92/giphy.gif"
           alt="Merci gif"
         />
       </div>
