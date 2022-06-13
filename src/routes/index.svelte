@@ -124,13 +124,54 @@
         <p>Pourquoi React ?</p>
       </h3>
       <div class="flex-1">
-        <p>Construire une app web c'est dur <span>...même avec jQuery</span></p>
-        <ul>
-          <li>Architecture par composants</li>
-          <li>Donnée descendante + procuration</li>
-          <li>Le VirtualDOM</li>
-          <li>Le JSX</li>
+        <p
+          class="m-block-5 text-center text-2xl op0 animate__animated start-1:animate__fadeIn"
+        >
+          Construire une app web c'est dur <span
+            class="op0 animate__animated start-2:animate__fadeIn"
+            >...même avec jQuery</span
+          >
+        </p>
+        <div
+          class="flex relative m-inline-auto w-fit op0 animate__animated start-3:animate__fadeIn"
+        >
+          <img
+            src="facebook.webp"
+            alt="Facebook logo"
+            class="h-20 absolute top-2 left-50"
+          />
+          <img
+            src="https://media.giphy.com/media/RJePyk9EXCUdW/giphy.gif"
+            alt="Gif solution"
+          />
+        </div>
+        <ul class="text-center">
+          <li
+            class="react-feat bg-blue op0 animate__animated start-4:animate__fadeIn"
+          >
+            Composants
+          </li>
+          <li
+            class="react-feat bg-blue op0 animate__animated start-5:animate__fadeIn"
+          >
+            Flux
+          </li>
+          <li
+            class="react-feat bg-blue op0 animate__animated start-6:animate__fadeIn"
+          >
+            VirtualDOM
+          </li>
+          <li
+            class="react-feat bg-blue op0 animate__animated start-7:animate__fadeIn"
+          >
+            JSX
+          </li>
         </ul>
+        <img
+          src="react.png"
+          alt="React logo"
+          class="m-block-5 m-inline-auto w-70 op0 animate__animated start-8:animate__fadeIn"
+        />
       </div>
     </div>
   </Slide>
@@ -142,15 +183,18 @@
       >
         <p>React a sauvé le web front-end</p>
       </h3>
-      <iframe
-        title="really?"
-        src="https://giphy.com/embed/L20E2bh3ntSCc"
-        width="600"
-        height="400"
-        frameBorder="0"
-        class="giphy-embed flex-1 op0 start-1:op100 animate__animated start-1:animate__fadeIn"
-        allowFullScreen
-      />
+      <div class="flex-1">
+        <img
+          src="https://media.giphy.com/media/YnBntKOgnUSBkV7bQH/giphy.gif"
+          alt="Gif happy"
+          class="m-auto"
+        />
+        <img
+          src="https://media.giphy.com/media/L20E2bh3ntSCc/giphy.gif"
+          alt="Gif really ?"
+          class="m-auto mt-10 op0 start-1:op100 animate__animated start-1:animate__fadeIn"
+        />
+      </div>
     </div>
   </Slide>
 
@@ -162,17 +206,14 @@
         En vrai React c'est dur
       </h3>
       <div class="flex-1">
-        <p
-          class="text-center mb-10 text-xl op0 animate__animated start-1:animate__fadeIn"
+        <div
+          class="m-inline-20% m-block-10 op0 animate__animated start-1:animate__fadeIn"
         >
-          Classes
-        </p>
-        <p
-          class="text-center text-xl op0 animate__animated start-2:animate__fadeIn"
+          <Highlight language={js} code={codeClass} />
+        </div>
+        <div
+          class="m-inline-20% m-block-10 op0 animate__animated start-2:animate__fadeIn"
         >
-          Hooks
-        </p>
-        <div class="m-inline-20% op0 animate__animated start-2:animate__fadeIn">
           <Highlight language={js} code={codeHooks} />
         </div>
       </div>
@@ -267,7 +308,7 @@
           src="/logo.svg"
           alt="Svelte logo"
         />
-        Svelte, le traître
+        Svelte, l'impertinent
       </h2>
     </div>
   </Slide>
@@ -348,6 +389,11 @@
           src="react.png"
           alt="react logo"
         />
+        <img
+          class="h-30 op0 animate__animated start-1:animate__fadeIn"
+          src="svelte-logo.png"
+          alt="svelte logo"
+        />
       </div>
     </div>
   </Slide>
@@ -414,7 +460,7 @@
       <h3
         class="flex font-sans font-black text-neutral-900 text-center text-3xl tracking-tighter mx-10 my-2 leading-none animate__animated animate__fadeInLeft"
       >
-        <p>Svelte est un superset de HTML</p>
+        <p>HTML with superpowers</p>
       </h3>
 
       <div class="relative flex-1 flex flex-col justify-center items-center">
@@ -466,7 +512,7 @@
           src="/logo.svg"
           alt="Svelte logo"
         />
-        Sveltesque
+        Svelte, et après ?
       </h2>
     </div>
   </Slide>
@@ -475,11 +521,11 @@
       <h3
         class="flex font-sans font-black text-neutral-900 text-center text-3xl tracking-tighter mx-10 my-2 leading-none animate__animated animate__fadeInLeft"
       >
-        <p>Gogo gadgeto META</p>
+        <p>Ouais, mais j'adore Next.js</p>
       </h3>
 
       <div
-        class="relative flex-1 flex flex-col justify-center items-center animate__animated animate__fadeInRight"
+        class="relative flex-1 flex flex-col justify-center items-center op0 animate__animated start-1:animate__fadeInRight"
       >
         <a
           href="https://kit.svelte.dev/"
@@ -550,17 +596,22 @@
         <p>Plus jamais de React ?</p>
       </h3>
 
-      <div
-        class="relative flex-1 flex gap-5 justify-center items-center animate__animated op0 start-1:animate__fadeIn"
-      >
-        <a
-          href="https://reactjs.org/blog/2022/03/29/react-v18.html"
-          target="blank"
-          class="flex gap-5 justify-center items-center"
-        >
-          <img src="/react.png" class="w-50" alt="React logo" />
-          <p class="text-6xl">React v18.0</p>
-        </a>
+      <div class="flex-1 flex gap-5 m-auto justify-center items-center">
+        <div class="relative">
+          <img
+            class="w-200 op0 animate__animated start-1:animate__fadeIn"
+            src="https://media.giphy.com/media/2yvMbaTO7vli9znJUu/giphy.gif"
+            alt="Who knows gif"
+          />
+          <a
+            href="https://reactjs.org/blog/2022/03/29/react-v18.html"
+            target="blank"
+            class="absolute flex gap-2 justify-center items-center top-45 right-5 op0 animate__animated start-2:animate__fadeInRight"
+          >
+            <img src="/react.png" class="w-15" alt="React logo" />
+            <p class="text-3xl text-white">React v18.0</p>
+          </a>
+        </div>
       </div>
     </div>
   </Slide>
@@ -665,7 +716,7 @@
 
       <div class="relative flex-1 flex gap-5 justify-center items-center ">
         <img
-          class="w-200"
+          class="w-150"
           src="https://media.giphy.com/media/ILV8xetoPJO92/giphy.gif"
           alt="Merci gif"
         />
@@ -692,6 +743,16 @@
   }
   .twitter-tweet {
     margin-inline: auto;
+  }
+
+  .react-feat {
+    width: fit-content;
+    margin-block: 1rem;
+    margin-inline: auto;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    color: white;
   }
 
   .feat {
