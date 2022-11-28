@@ -32,6 +32,6 @@
     flex-flow: column;
     align-items: center;
     gap: 1rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 </style>

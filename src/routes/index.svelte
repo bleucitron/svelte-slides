@@ -25,7 +25,7 @@
         Javascript
       </h1>
       <p
-        class="font-sans font-normal text-center text-2xl text-gray-500 max-w-4/6 mx-auto leading-relaxed start-1:delete"
+        class="font-sans font-normal text-center text-3xl text-gray-500 max-w-4/6 mx-auto leading-relaxed start-1:delete"
       >
         en bref
       </p>
@@ -71,8 +71,8 @@
         src="/moi.png"
         alt="Romain l'Ourson"
       />
-      <p class="text-3xl">Romain Crestey</p>
-      <p class="text-xl text-gray-400">@r_ourson</p>
+      <p class="text-4xl">Romain Crestey</p>
+      <p class="text-2xl text-gray-400">@r_ourson</p>
     </div>
   </Slide>
   <Slide>
@@ -125,16 +125,36 @@
       </h3>
       <div class="flex-1">
         <p
-          class="m-block-5 text-center text-2xl op0 animate__animated start-1:animate__fadeIn"
+          class="m-block-5 text-center text-3xl op0 animate__animated start-1:animate__fadeIn"
         >
-          Construire une app web c'est dur <span
-            class="op0 animate__animated start-2:animate__fadeIn"
-            >...même avec jQuery</span
-          >
+          Construire une app web c'est dur...
         </p>
         <div
-          class="flex relative m-inline-auto w-fit op0 animate__animated start-3:animate__fadeIn"
+          class="flex relative m-inline-auto w-fit op0 animate__animated start-1:animate__fadeIn"
         >
+          <img
+            src="https://media.giphy.com/media/g8XkcuerwzVS0/giphy.gif"
+            alt="Gif vanilla web app"
+          />
+        </div>
+        <div
+          class="m-block-5 text-center text-3xl op0 animate__animated start-2:animate__fadeIn"
+        >
+          ...même avec jQuery
+        </div>
+      </div>
+    </div>
+  </Slide>
+
+  <Slide>
+    <div class="flex justify-around min-h-screen items-center mx-auto">
+      <h3
+        class="flex font-sans font-black text-neutral-900 text-center text-3xl tracking-tighter mx-auto leading-none animate__animated animate__fadeInLeft"
+      >
+        <p>Enter Facebook...</p>
+      </h3>
+      <div class="flex-1">
+        <div class="flex relative m-inline-auto w-fit">
           <img
             src="facebook.webp"
             alt="Facebook logo"
@@ -147,22 +167,22 @@
         </div>
         <ul class="text-center">
           <li
-            class="react-feat bg-blue op0 animate__animated start-4:animate__fadeIn"
+            class="react-feat bg-blue op0 animate__animated start-1:animate__fadeIn"
           >
             Composants
           </li>
           <li
-            class="react-feat bg-blue op0 animate__animated start-5:animate__fadeIn"
+            class="react-feat bg-blue op0 animate__animated start-2:animate__fadeIn"
           >
             Flux
           </li>
           <li
-            class="react-feat bg-blue op0 animate__animated start-6:animate__fadeIn"
+            class="react-feat bg-blue op0 animate__animated start-3:animate__fadeIn"
           >
             VirtualDOM
           </li>
           <li
-            class="react-feat bg-blue op0 animate__animated start-7:animate__fadeIn"
+            class="react-feat bg-blue op0 animate__animated start-4:animate__fadeIn"
           >
             JSX
           </li>
@@ -170,7 +190,7 @@
         <img
           src="react.png"
           alt="React logo"
-          class="m-block-5 m-inline-auto w-70 op0 animate__animated start-8:animate__fadeIn"
+          class="m-block-5 m-inline-auto w-70 op0 animate__animated start-5:animate__fadeIn"
         />
       </div>
     </div>
@@ -248,7 +268,7 @@
       <h3
         class="flex font-sans font-black text-neutral-900 text-center text-3xl tracking-tighter mx-10 my-2 leading-none animate__animated animate__fadeInLeft"
       >
-        <p>Le VirtualDOM travaille souvent pour rien</p>
+        <p>En vrai le VirtualDOM c'est bof</p>
       </h3>
 
       <div class="vdom flex-1 flex justify-center items-center">
@@ -315,6 +335,16 @@
 
   <Slide>
     <div class="flex flex-col min-h-screen justify-center">
+      <h1
+        class="font-sans font-black text-neutral-900 text-center text-6xl tracking-tighter max-w-5/6 mx-auto my-2 leading-none"
+      >
+        Javascript
+      </h1>
+      <p
+        class="font-sans font-normal text-center text-3xl text-gray-500 max-w-4/6 mx-auto leading-relaxed start-1:delete"
+      >
+        en (un peu moins) bref
+      </p>
       <div class="flex justify-center mt-20">
         <Step
           href="https://fr.wikipedia.org/wiki/Brendan_Eich"
@@ -408,7 +438,7 @@
 
       <div class="flex-1 flex flex-col justify-center">
         <div
-          class="flex flex-col flex-1 justify-center items-center text-2xl op0 animate__animated start-1:animate__fadeIn"
+          class="flex flex-col flex-1 justify-center items-center text-3xl op0 animate__animated start-1:animate__fadeIn"
         >
           <p class="mb-5">
             Les liens entre data et UI sont <strong
@@ -521,7 +551,7 @@
       <h3
         class="flex font-sans font-black text-neutral-900 text-center text-3xl tracking-tighter mx-10 my-2 leading-none animate__animated animate__fadeInLeft"
       >
-        <p>Ouais, mais j'adore Next.js</p>
+        <p>"Ouais, mais j'adore Next.js"</p>
       </h3>
 
       <div
@@ -626,6 +656,11 @@
       <div
         class="relative flex-1 flex flex-col justify-center animate__animated"
       >
+        <img
+          class="w-100 h-100"
+          src="https://chart.googleapis.com/chart?cht=qr&chl=http%3A%2F%2Fsvelte-slides-beta.vercel.app&chs=180x180&choe=UTF-8&chld=L|2"
+        />
+
         <h4 class="text-3xl">Pourquoi je ne veux plus faire de React</h4>
 
         <div class="link text-xl">
@@ -711,15 +746,32 @@
       <h3
         class="flex font-sans font-black text-neutral-900 text-center text-3xl tracking-tighter mx-10 my-2 leading-none animate__animated animate__fadeInLeft"
       >
-        <p>Cheers</p>
+        <p>Merci</p>
       </h3>
 
       <div class="relative flex-1 flex gap-5 justify-center items-center ">
         <img
           class="w-150"
-          src="https://media.giphy.com/media/ILV8xetoPJO92/giphy.gif"
+          src="https://media.giphy.com/media/l2R0eYcNq9rJUsVAA/giphy.gif"
           alt="Merci gif"
         />
+      </div>
+    </div>
+  </Slide>
+  <Slide>
+    <div class="flex justify-around min-h-screen mx-auto">
+      <h3
+        class="flex items-center font-sans font-black text-neutral-900 text-center text-3xl tracking-tighter mx-10 my-2 leading-none animate__animated animate__fadeInLeft"
+      >
+        <img
+          class="h-30 mx-12 rounded-6"
+          src="/Svelte Society Bordeaux.png"
+          alt="Svelte Society Bordeaux"
+        />
+      </h3>
+
+      <div class="relative flex-1 flex gap-5 justify-center items-center ">
+        <img class="w-300" src="/Event.png" alt="Merci gif" />
       </div>
     </div>
   </Slide>
@@ -728,6 +780,7 @@
 <style>
   h3 {
     width: 25%;
+    font-size: 2.5rem;
   }
   h3 p {
     margin: auto;
@@ -783,7 +836,7 @@
   }
 
   .links h4 {
-    margin-top: 3rem;
+    margin-top: 1.5rem;
   }
 
   .links .link {
