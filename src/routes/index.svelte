@@ -577,7 +577,7 @@
       </h3>
 
       <div
-        class="benchmark relative flex-1 flex flex-col justify-center h-100vh overflow-auto items-center animate__animated animate__fadeInRight"
+        class="benchmark relative flex-1 flex flex-col justify-center h-100vh overflow-auto items-center op0 animate__animated start-1:animate__fadeInRight"
       >
         <a
           href="https://krausest.github.io/js-framework-benchmark/current.html"
@@ -654,7 +654,7 @@
       </h3>
 
       <div
-        class="relative flex-1 flex flex-col justify-center animate__animated"
+        class="relative flex-1 flex flex-col justify-center animate__animated animate__fadeIn"
       >
         <img
           class="w-100 h-100"
@@ -749,7 +749,9 @@
         <p>Merci</p>
       </h3>
 
-      <div class="relative flex-1 flex gap-5 justify-center items-center ">
+      <div
+        class="relative flex-1 flex gap-5 justify-center items-center animate__animated animate__fadeIn"
+      >
         <img
           class="w-150"
           src="https://media.giphy.com/media/l2R0eYcNq9rJUsVAA/giphy.gif"
@@ -770,7 +772,9 @@
         />
       </h3>
 
-      <div class="relative flex-1 flex gap-5 justify-center items-center ">
+      <div
+        class="relative flex-1 flex gap-5 justify-center items-center animate__animated op0 start-1:animate__fadeInRight"
+      >
         <img class="w-300" src="/Event.png" alt="Merci gif" />
       </div>
     </div>
