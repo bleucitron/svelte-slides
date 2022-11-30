@@ -658,7 +658,7 @@
       >
         <img
           class="w-100 h-100"
-          src="https://chart.googleapis.com/chart?cht=qr&chl=http%3A%2F%2Fsvelte-slides-beta.vercel.app&chs=180x180&choe=UTF-8&chld=L|2"
+          src="https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fgithub.com%2FiOiurson%2Fsvelte-slides&chs=180x180&choe=UTF-8&chld=L|2"
         />
 
         <h4 class="text-3xl">Pourquoi je ne veux plus faire de React</h4>
