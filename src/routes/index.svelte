@@ -97,6 +97,15 @@
     </div>
   </Slide>
   <Slide>
+    <div class="flex flex-col min-h-screen justify-center">
+      <img
+        src="/react-v-svelte.png"
+        alt="npm trends: React vs Svelte"
+        class="w-80% m-auto"
+      />
+    </div>
+  </Slide>
+  <Slide>
     <div class="flex flex-col justify-center min-h-screen items-center mx-auto">
       <div
         class="font-sans font-normal text-center text-3xl text-gray-400 leading-relaxed"
